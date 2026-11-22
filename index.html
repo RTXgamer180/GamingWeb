@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090914">
+  <meta name="description" content="JJ Playz — gaming, projects, experiments and more.">
+  <title>JJ PLAYZ — Enter the game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-mark">J</span> JJ<span>PLAYZ</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#links">Links</a>
+      <button class="theme-button" id="themeButton" aria-label="Toggle theme">☼</button>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> PLAYER ONE HAS ENTERED</p>
+        <h1>LEVEL UP<br><span>YOUR WORLD.</span></h1>
+        <p class="intro">Gaming, Minecraft projects, experiments and random cool stuff. Welcome to my corner of the internet.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore projects <span>↗</span></a>
+          <a class="button secondary" href="#about">Who am I?</a>
+        </div>
+        <div class="mini-stats">
+          <div><strong>∞</strong><small>IDEAS</small></div>
+          <div><strong>24/7</strong><small>GAMER MODE</small></div>
+          <div><strong>GG</strong><small>GOOD VIBES</small></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative neon gaming graphic">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="core"><span>JJ</span><small>PLAYZ</small></div>
+        <div class="float-tag tag-top">✦ CREATIVE MODE</div>
+        <div class="float-tag tag-bottom">SYSTEM ONLINE <i></i></div>
+        <div class="crosshair">+</div>
+      </div>
+      <a class="scroll-hint" href="#about">SCROLL TO EXPLORE ↓</a>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-label">01 / PLAYER PROFILE</div>
+      <div class="section-content">
+        <h2>Not just playing.<br><span>Creating.</span></h2>
+        <p>I'm JJ Playz. I enjoy gaming, building things, coding experiments and turning weird ideas into real projects. This site is my little launchpad.</p>
+        <div class="chips"><span>MINECRAFT</span><span>CODING</span><span>GAMING</span><span>CREATIVE BUILDS</span></div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-label">02 / THE WORKSHOP</div>
+      <div class="section-heading"><h2>Featured <span>projects</span></h2><p>Things from the workshop. More discoveries incoming.</p></div>
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="card-top"><span>01</span><span class="status">IN DEVELOPMENT</span></div>
+          <div class="project-icon">▦</div><h3>Minecraft creations</h3>
+          <p>Add-ons, mods, datapacks and experiments that change the game.</p>
+          <a href="https://www.curseforge.com/members/codemaker180/projects" target="_blank" rel="noopener">Explore creations ↗</a>
+        </article>
+        <article class="project-card">
+          <div class="card-top"><span>02</span><span class="status">ONLINE</span></div>
+          <div class="project-icon">⌘</div><h3>Code lab</h3>
+          <p>Small tools, web experiments and projects built one line at a time.</p>
+          <a href="https://github.com/xxx-jj_playz" target="_blank" rel="noopener">Visit GitHub ↗</a>
+        </article>
+        <article class="project-card">
+          <div class="card-top"><span>03</span><span class="status">LOADING...</span></div>
+          <div class="project-icon">▶</div><h3>Video channel</h3>
+          <p>Gaming videos, clips and whatever happens next.</p>
+          <a href="https://www.youtube.com/@xxx-jj_playz" target="_blank" rel="noopener">Watch videos ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="callout" id="links">
+      <div><p class="eyebrow">03 / CONNECT</p><h2>Ready to<br><span>press start?</span></h2></div>
+      <div class="social-links">
+        <a href="https://www.youtube.com/@xxx-jj_playz" target="_blank" rel="noopener">YouTube <b>↗</b></a>
+        <a href="https://github.com/xxx-jj_playz" target="_blank" rel="noopener">GitHub <b>↗</b></a>
+        <a href="https://www.curseforge.com/members/codemaker180/projects" target="_blank" rel="noopener">CurseForge <b>↗</b></a>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#home">JJ<span>PLAYZ</span></a><p>© <span id="year"></span> JJ Playz · Made for the next level.</p><a href="#home">BACK TO TOP ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
